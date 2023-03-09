@@ -1,13 +1,21 @@
 {
   "name": "ts",
   "version": "1.0.0",
-  "description": "test",
-  "repository": {},
-  "main": "js/index.js",
+  "description": "Type Script courses",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bitros/ts.git"
+  },
+  "main": "js/app.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "dayjs": "^1.11.7",
+    "lite-server": "^2.6.1",
+    "typescript": "^4.9.5"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./js/app.js",
+    "start": "lite-server"
   },
   "author": "",
   "license": "ISC",

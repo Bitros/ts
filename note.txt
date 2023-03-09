@@ -1,0 +1,15 @@
+Prerequisites
+    1.install NodeJS
+    2.install Typescript 
+        npm install typescript --save-dev
+    3.set up tsconfig.json
+        tsc --init
+Install module
+    npm install dayjs
+Compile
+    npx tsc
+Add VSCode task to compile or watch
+    set up .vscode/tasks.json
+npm command 
+    npm start
+    npm run
