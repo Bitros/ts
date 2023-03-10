@@ -12,4 +12,5 @@ Add VSCode task to compile or watch
     set up .vscode/tasks.json
 npm command 
     npm start
-    npm run
+    npm test
+    npm run COMMAND_IN_SCRIPTS
