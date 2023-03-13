@@ -14,3 +14,6 @@ npm command
     npm start
     npm test
     npm run COMMAND_IN_SCRIPTS
+eslint
+    base rules for JavaScript
+    typescript-eslint plugin for TypeScript
